@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cities</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        header {
+            padding: 60px;
+            background-color: #666666;
+            color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        main {
+            display: flex;
+        }
+
+        aside {
+            flex: 40%;
+            background-color: #ccc;
+            padding: 15px;
+            height: 300px;
+        }
+
+        aside>a {
+            display: block;
+            color: #000;
+            padding: 5px;
+        }
+
+        section {
+            flex: 60%;
+            background-color: #f1f1f1;
+            padding: 15px;
+            height: 300px;
+
+        }
+
+        section>h2 {
+            margin-top: 20px;
+            font-size: 2rem;
+        }
+
+        section>p {
+            padding: 15px 0px;
+        }
+
+        footer {
+            padding: 30px;
+            background-color: #777;
+        }
+
+        footer>p {
+            text-align: center;
+            color: #fff;
+
+        }
+        @media(max-width:700px){
+            main{
+                display: block;
+            }
+            aside{
+                height:150px;
+
+            }
+            aside>a{
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> Cities</h1>
+    </header>
+    <main>
+        <aside>
+            <a href="#">London</a>
+            <a href="#">Paris</a>
+            <a href="#">Tokyo</a>
+        </aside>
+        <section>
+            <h2>London</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis provident, voluptate fugiat veritatis
+                dolore optio saepe cupiditate consequatur doloribus facilis dolorum cum temporibus animi praesentium
+                accusantium reprehenderit, ducimus repellendus alias.</p>
+            <p>Dolor nostrum minima at delectus rem quidem cum facilis perferendis, nemo quis iusto fugit consequuntur
+                distinctio numquam iure incidunt corrupti, quam est ea? Dignissimos culpa sequi repudiandae qui
+                exercitationem et.</p>
+        </section>
+    </main>
+    <footer>
+        <p>footer</p>
+    </footer>
+</body>
+
+</html>
